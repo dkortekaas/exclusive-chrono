@@ -1,0 +1,45 @@
+
+.header-v2 .header {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: none
+}
+
+.is-sticky .header-v2 .header {
+    position: fixed;
+    top: 0;
+    z-index: 210;
+    max-width: 100%;
+    width: 100%;
+    border-bottom: 0
+}
+
+.is-sticky .sticky-menu-only.header-v2 .header {
+    border-bottom: 0
+}
+
+.no-overflow-y .is-sticky .header-v2 .header, .no-overflow-y .is-sticky .sticky-menu-only .secondary-main-menu {
+    padding-right: 39px
+}
+
+.header-v2 .header {
+    border-bottom-color: #eaeaea
+}
+
+.mobile-menu-design-classic.header-v2 .header {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.mobile-menu-design-modern.header-v2 .header {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.mobile-menu-design-modern.header-v2 .header .row {
+    width: 100%
+}
+
+
+.header-v2 .header, .secondary-header, .secondary-main-menu {
+    border-bottom: 1px solid transparent
+}
